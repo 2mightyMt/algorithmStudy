@@ -4,7 +4,7 @@ int main() {
 	scanf("%d", &a); // scanf로 입력받은 값을 a에 저장
 
 	for (int i = 1; i <= a; i++) { // 반복문 실행
-		for (int j = 0; j < i; j++) { //별찍는 반복문 실행
+		for (int j = 0; j < i; j++) { //별찍는 반복문
 			printf("*");
 		}
 		printf("\n");
