@@ -5,9 +5,9 @@ int main() {
 
 	for (int i = 1; i <= a; i++) { // 반복문 실행
 		for (int j = 0; j < i; j++) { //별찍는 반복문
-			printf("*");
+			printf("*"); // 별 찍기
 		}
-		printf("\n");
+		printf("\n"); // 줄바꿈
 	}
 	return 0;
 }
