@@ -1,17 +1,18 @@
-    #include <stdio.h>
+#include <stdio.h>
+int main() {
+    int a; //별 개수 정하는 변수 하나 선언
+    scanf("%d", &a); // scanf로 입력받은 값을 a에 저장
 
-    int main() {
-        int a, b;// 입력받을 값 a,b 선언
+    for (int i = 1; i <= a; i++) { //입력받은 수 만큼 반복문
 
-        while (1) { // 무한히 반복되기 때문에 while문 사용
-            scanf("%d %d", &a, &b); // a와 b 입력받음
-
-            if(a!=0 && b!=0){ //0 0일때는 출력 안하니까 a와 b가 0이 아닐 때만 출력
-                printf("%d\n", a + b);
-            }
-			if (a == 0 && b == 0) { // a와 b가 0일 때는 0 0이 입력되면 프로그램 종료
-                break; // while문 탈출
-            }
+        for (int j = a; j > i; j--) { // 입력받은 수에서 i를 뺀 만큼 공백 출력
+            printf(" ");
         }
-        return 0;
+        for (int j = 0; j < i; j++) { // i의 수 만큼 별 출력
+            printf("*");
+        }
+        printf("\n"); //줄 바꿈
     }
+    return 0;
+
+}
