@@ -9,4 +9,4 @@ int main() {
 		printf("Case #%d: %d + %d = %d\n", i, a, b, result); //결과값 출력
 	}
 	return 0;
-}[]
+}
