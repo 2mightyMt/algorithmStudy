@@ -9,7 +9,7 @@ int main() {
 		scanf("%d", &arr[i]); //사용자로부터 정수를 입력받아 arr[i]에 저장
 
 		if (arr[i] > max) { // 만약 arr[i]가 max보다 크다면
-			max = arr[i]; // max를 arr[i]로 업데이트
+			max = arr[i]; // max를 arr[i]로 업데이트 하기
 			count = i; //count를 i로 업데이트(최댓값의 위치를 저장)
 		}
 	}
