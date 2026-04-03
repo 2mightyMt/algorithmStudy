@@ -10,7 +10,7 @@ int main() {
     }
     for (int j = 0; j < N; j++) { //배열에서 X보다 작은 수를 찾기 위한 반복문
         if(arr[j] < X){ //만약 배열에 들어있는 수 중에서 X 보다 작은 수가 있다면
-           printf("%d ", arr[j]); //그 수 출력하기
+           printf("%d ", arr[j]); //그 수 출력
         }
     }
     return 0;
