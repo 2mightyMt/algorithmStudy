@@ -22,7 +22,7 @@ int main() {
 			max = arr[j];
 		}
 	}
-	printf("%d ", min); //제일 작은 수 출력.
+	printf("%d ", min); //제일 작은 수 출력
 	printf("%d", max); //제일 큰 수 출력
 	return 0;
 }
